@@ -2,6 +2,7 @@
 
 namespace AspNetRC1RedisSample.Controllers
 {
+    [Route("")]
     [Route("[controller]/[action]")]
     public class HomeController : Controller
     {
