@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ABF17D02-DC5D-488F-B3D5-B56D06EA1574}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{266533D4-D563-4AA0-8720-13F0825B4868}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetRC1RedisSample", "src\AspNetRC1RedisSample\AspNetRC1RedisSample.xproj", "{D70808E4-78E1-466B-BDAF-96B668DF7897}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D70808E4-78E1-466B-BDAF-96B668DF7897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70808E4-78E1-466B-BDAF-96B668DF7897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70808E4-78E1-466B-BDAF-96B668DF7897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70808E4-78E1-466B-BDAF-96B668DF7897}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D70808E4-78E1-466B-BDAF-96B668DF7897} = {ABF17D02-DC5D-488F-B3D5-B56D06EA1574}
+	EndGlobalSection
+EndGlobal
